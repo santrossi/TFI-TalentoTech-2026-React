@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "[*KIDS] Urbanas",
+    "description": "Zapatillas Adidas Superstar infantiles, diseño clásico con puntera de goma y cierre con abrojo. Ideales para primeros pasos y looks urbanos.",
+    "price": 55000,
+    "image": "/img/footwear/adidas-kids.jpeg",
+    "category": "infantil"
+  },
+  {
+    "id": 2,
+    "name": "[*KIDS] Crocs",
+    "description": "Calzado juvenil liviano y cómodo. Resistente al agua, con perforaciones para ventilación y tira trasera ajustable. Perfectos para jugar, pasear y disfrutar del verano.",
+    "price": 35000,
+    "image": "/img/footwear/crocs-kids.webp",
+    "category": "infantil"
+  },
+  {
+    "id": 3,
+    "name": "[*KIDS] Neopreno",
+    "description": "Calzado acuático infantil de neopreno. Flexible y de secado rápido, suela antideslizante y ajuste cómodo al pie. Ideales para la playa, pileta y actividades acuáticas, protegiendo los pies de la arena caliente y superficies rocosas.",
+    "price": 28000,
+    "image": "/img/footwear/escarpines-neopreno.avif",
+    "category": "infantil"
+  },
+  {
+    "id": 4,
+    "name": "Stilettos",
+    "description": "Zapato de tacón alto y fino, con punta estilizada y acabado elegante. Ideal para fiestas, eventos formales y ocasiones especiales.",
+    "price": 85000,
+    "image": "/img/footwear/stilettos.webp",
+    "category": "femenino"
+  },
+  {
+    "id": 5,
+    "name": "Ballerina Shoes",
+    "description": "Calzado para ballet. Diseño delicado, suela flexible. Perfecto para prácticas.",
+    "price": 45000,
+    "image": "/img/footwear/ballet.jpg",
+    "category": "femenino"
+  },
+  {
+    "id": 6,
+    "name": "Camel Toe",
+    "description": "Calzado de diseño moderno. Silueta estilizada, materiales suaves y terminaciones pulidas.",
+    "price": 65000,
+    "image": "/img/footwear/camel-toe.png",
+    "category": "femenino"
+  },
+  {
+    "id": 7,
+    "name": "Borcegos",
+    "description": "Calzado de cuero caña alta, costuras reforzadas y suela gruesa con tramado antideslizante. Inspirado en el estilo clásico de las botas de trabajo alternativas.",
+    "price": 120000,
+    "image": "/img/footwear/borcegos.jpg",
+    "category": "masculino"
+  },
+  {
+    "id": 8,
+    "name": "Zapatillas Deportivas",
+    "description": "Calzado que combina materiales textiles con suela de amortiguación mediante cámara de aire. Excelente comodidad para el uso diario.",
+    "price": 78000,
+    "image": "/img/footwear/runners.png",
+    "category": "masculino"
+  },
+  {
+    "id": 9,
+    "name": "Zapatos de Charol",
+    "description": "Calzado formal de charol negro en acabado piano, con cordones clásicos, punta refinada y suela elegante. Ideal para trajes, ceremonias y eventos de etiqueta.",
+    "price": 95000,
+    "image": "/img/footwear/oxford-charol.webp",
+    "category": "masculino"
+  }
+]
