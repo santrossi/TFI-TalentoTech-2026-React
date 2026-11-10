@@ -1,4 +1,4 @@
-const IMGBB_API_KEY = "75e67e6bbc3176b1da6c3f3c0d3e5fa0"; //pls do not use lol,,,,
+const IMGBB_API_KEY = "75e67e6bbc3176b1da6c3f3c0d3e5fa0";
 const ENDPOINT = "https://api.imgbb.com/1/upload";
 
 export const uploadImage = async (file) => {
