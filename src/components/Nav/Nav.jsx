@@ -10,7 +10,7 @@ export const Nav = () => {
     <nav>
       <ul className="nav-list">
         <li>
-          <Link to={"/"}>HOME</Link>
+          <Link to={"/"}>CATALOGO</Link>
         </li>
         <li>
           <Link to={"/cart"}>
