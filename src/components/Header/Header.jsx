@@ -1,6 +1,6 @@
 import { Nav } from "../Nav/Nav";
 import { Link } from "react-router-dom";
-import logo from "/img/footwear/footshop-logo.png";
+import logo from "/img/barrostudio/barro_logo_hq.png";
 import "./Header.css";
 
 export const Header = () => {
@@ -9,7 +9,7 @@ export const Header = () => {
       <div className="logo-container">
         <Link to={"/"}>
           <img src={logo} alt="logo react" />
-          <span>Ceramic Store</span>
+          <span>Barro Studio</span>
         </Link>
       </div>
       <Nav />
