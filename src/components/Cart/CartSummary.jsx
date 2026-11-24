@@ -7,7 +7,9 @@ export const CartSummary = () => {
 
   return (
     <>
-      <p>TOTAL: ${total}</p>
+      <p style={{ marginBottom: "2rem" }}>
+        <b>TOTAL: </b> ${total}
+      </p>
       <button className="btn bg-success primary" onClick={checkout}>
         Pagar
       </button>

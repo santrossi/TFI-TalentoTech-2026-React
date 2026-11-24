@@ -27,11 +27,13 @@ export const CartProvider = ({ children }) => {
   const addItem = (item) => {
     if (isInCart(item)) {
       alert("⚠️ El producto ya existe en tu carrito!");
+      navigate("/");
       return;
     }
 
     setCart([...cart, item]);
     alert("✅ ¡Producto agregado!");
+    navigate("/");
   };
 
   const removeItem = (id) => {

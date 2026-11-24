@@ -27,3 +27,7 @@
   font-size: 2rem;
   padding: 1rem;
 }
+
+.btn bg-success primary cart-payment {
+  margin-top: 5rem;
+}
