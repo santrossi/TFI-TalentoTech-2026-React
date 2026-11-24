@@ -63,7 +63,7 @@ export const ProductFormUI = ({
         </div>
 
         <button className="btn bg-primary" type="submit" disabled={loading}>
-          {loading ? "Guardando..." : "Guardar"}
+          {loading ? "Creando..." : "Crear producto"}
         </button>
 
         {errors.general && <p className="error">{errors.general}</p>}
