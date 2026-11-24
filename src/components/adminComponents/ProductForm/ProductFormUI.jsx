@@ -39,6 +39,7 @@ export const ProductFormUI = ({
           <input
             type="text"
             name="category"
+            placeholder="Bazar | Deco | Vajilla"
             value={product.category}
             onChange={onChange}
           />

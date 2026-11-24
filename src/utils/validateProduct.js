@@ -18,7 +18,7 @@ export const validateProduct = (product) => {
   }
 
   if (!product.file) {
-    errors.file = "Debes incluir una imagen";
+    errors.file = "La imagen es obligatoria";
   }
 
   return errors;

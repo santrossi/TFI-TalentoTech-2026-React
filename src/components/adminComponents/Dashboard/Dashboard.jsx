@@ -40,7 +40,10 @@ export const Dashboard = () => {
 
       <section className="dashboard-help">
         <h3>AYUDA</h3>
-        <p>Desde este panel gestionás el inventario de la tienda 👍 </p>
+        <p>
+          Desde este panel gestionás el inventario de la tienda. Nuevas
+          funcionalidades próximamente.{" "}
+        </p>
       </section>
     </div>
   );

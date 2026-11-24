@@ -29,11 +29,11 @@ export const Login = () => {
       <h2>INICIAR SESIÓN</h2>
 
       <div className="form-group">
-        <label>Email</label>
+        <label>Correo electrónico</label>
         <input
           type="email"
           name="email"
-          placeholder="Correo electrónico"
+          placeholder="ejemplo@ejemplo.com.ar"
           value={formData.email}
           onChange={handleChange}
           required
@@ -42,11 +42,11 @@ export const Login = () => {
       </div>
 
       <div className="form-group">
-        <label>Password</label>
+        <label>Contraseña</label>
         <input
           type="password"
           name="password"
-          placeholder="Contraseña"
+          placeholder="******"
           value={formData.password}
           onChange={handleChange}
           required
