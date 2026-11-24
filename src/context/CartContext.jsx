@@ -1,5 +1,6 @@
 import { createContext, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Bounce, toast, Zoom } from "react-toastify";
 
 /* se crea el contexto*/
 const CartContext = createContext();
@@ -26,20 +27,50 @@ export const CartProvider = ({ children }) => {
 
   const addItem = (item) => {
     if (isInCart(item)) {
-      alert("⚠️ El producto ya existe en tu carrito!");
+      toast.info("El producto ya está en tu carrito", {
+        position: "bottom-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        transition: Zoom,
+      });
       navigate("/");
       return;
     }
 
     setCart([...cart, item]);
-    alert("✅ ¡Producto agregado!");
+    toast.success("¡Producto agregado!", {
+      position: "bottom-center",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+      transition: Zoom,
+    });
     navigate("/");
   };
 
   const removeItem = (id) => {
     const updatedCart = cart.filter((element) => element.id !== id);
     setCart(updatedCart);
-    alert("🗑️ Producto eliminado");
+    toast.warn("Producto eliminado del carrito", {
+      position: "bottom-center",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+      transition: Zoom,
+    });
   };
 
   const clearCart = () => {
@@ -56,7 +87,17 @@ export const CartProvider = ({ children }) => {
   };
 
   const checkout = () => {
-    alert("✅ Pago confirmado: ¡Gracias por su compra!");
+    toast.success("Pago confirmado: ¡Gracias por su compra!", {
+      position: "bottom-center",
+      autoClose: 4000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+      transition: Bounce,
+    });
     clearCart();
     navigate("/");
   };

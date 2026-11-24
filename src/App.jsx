@@ -14,6 +14,7 @@ import { AdminLayout } from "./layouts/AdminLayout";
 import { Login } from "./components/Login/Login";
 import { ProtectedRoute } from "./components/ProtectedRoute/ProtectedRoute";
 import { Dashboard } from "./components/adminComponents/Dashboard/Dashboard";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (

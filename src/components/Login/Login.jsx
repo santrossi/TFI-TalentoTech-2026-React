@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
 import "./Login.css";
 import { useState } from "react";
+import { toast, Zoom } from "react-toastify";
 
 export const Login = () => {
   const { login } = useAuth();
@@ -20,7 +21,17 @@ export const Login = () => {
       navigate("/admin", { replace: true });
     } catch (error) {
       console.error(error);
-      alert("Error al iniciar sesion");
+      toast.error("Usuario o contraseña incorrectos", {
+        position: "bottom-center",
+        autoClose: 4000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        transition: Zoom,
+      });
     }
   };
 
